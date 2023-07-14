@@ -83,7 +83,7 @@ body {
     align-items: center;
     font-size: 32px;
     font-weight: 800;
-    color: #4B9BFB;
+    color: #4B9BFB; 
     background-color: #D5EBFF;
     border-radius: 50%;
     height: 80px;
@@ -340,15 +340,16 @@ body {
     width: 25%;
 }
 
+.section-col-2-layout .preview-wrapper {
+    height: 100%;
+}
+
 .col-1-1-v,
 .col-1-2-v {
     height: 50%;
+    padding: 1em;
 }
 
-.preview-wrapper {
-    padding: 1em;
-    height: 100%;
-}
 
 .image-preview-box {
     position: relative;
@@ -357,7 +358,7 @@ body {
     flex-direction: column;
     border: 2px solid #F0F0F0;
     border-radius: 12px;
-    height: 60vh;
+    height: 25vh;
     align-items: center;
     justify-content: center;
     transition: transform .2s;
@@ -398,7 +399,6 @@ body {
     box-shadow: #00000036 0 0 4px;
     border-radius: 5px;
     font-family: "Poppins, sans-serif";
-    padding-bottom: .75em;
     transition: transform .2s;
     cursor: pointer;
 }
