@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.22.0/tabler-icons.min.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="./style.css" rel="stylesheet">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- SELECT TASK -->
+        <div class="section">
+            <div class="section-header">
+                <span class="header-number">1</span>
+                <span class="header-title">Choose a Task</span>
+            </div>
+            <div class="section-content">
+                <div id="input-select-task" class="input-select">
+                    <select>
+                        <option value="0">Select Task:</option>
+                        <option value="1">BTL_852315 Day 60 - 50% Deposit Match up to $200 + 50 Bonus Spins (Starburst):
+                            Party NJ</option>
+                        <option value="2">CHR_See Change Request - 6/30 | PKR_839364 NJ Borgata Poker BRP Builder Cash
+                            Game Hours</option>
+                        <option value="3">Testing & Scheduling | ATL_841024 MC PA SHARED Super Jackpot Series
+                            Leaderboard</option>
+                        <option value="4">BTL_863582 Bronze Upsell: Deposit Match 50% up to $500, Borg PA</option>
+                        <option value="5">ATL_820415 PC NJ Ladies Night Q3 2023</option>
+                        <option value="6">PS_866300 Borgata Casino - Deposit $10 and get 100 Bonus Spins on Double
+                            Stacks - NJ</option>
+                        <option value="7">PS_865491 BetMGM Casino - Deposit $10 and get 100 Bonus Spins on Double Stacks
+                            - MC NJ</option>
+                        <option value="8">BTL_868100 Churn Lifecycle Deposit Match 50% up to $200 Casino - Ontario
+                        </option>
+                        <option value="9">GA_867736 Game Announcement - Wolf Legend Megaways Jackpot Royale NJ - MC
+                        </option>
+                        <option value="10">MGMD Online to Retail 2023Q3</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- SELECT BRAND -->
+        <div class="section">
+            <div class="section-header">
+                <span class="header-number">2</span>
+                <span class="header-title">Choose the Brand of your Task</span>
+            </div>
+            <div class="section-content">
+                <div class="brands-list-wrapper">
+                    <ul class="brands-list">
+                        <li>
+                            <input type="radio" class="brand-radio-btn" id="betmgm-casino-choice" name="brand-list"
+                                value="betmgm-casino" checked="">
+                            <label for="betmgm-casino-choice"
+                                style="background: no-repeat url('logo/betmgm-casino.png')"></label>
+                        </li>
+                        <li>
+                            <input type="radio" class="brand-radio-btn" id="betmgm-poker-choice" name="brand-list"
+                                value="betmgm-poker" checked="">
+                            <label for="betmgm-poker-choice"
+                                style="background: no-repeat url('logo/betmgm-poker.png')"></label>
+                        </li>
+                        <li>
+                            <input type="radio" class="brand-radio-btn" id="borgata-casino-choice" name="brand-list"
+                                value="borgata-casino" checked="">
+                            <label for="borgata-casino-choice"
+                                style="background: no-repeat url('logo/borgata-casino.png')"></label>
+                        </li>
+                        <li>
+                            <input type="radio" class="brand-radio-btn" id="borgata-poker-choice" name="brand-list"
+                                value="borgata-poker" checked="">
+                            <label for="borgata-poker-choice"
+                                style="background: no-repeat url('logo/borgata-poker.png')"></label>
+                        </li>
+                        <li>
+                            <input type="radio" class="brand-radio-btn" id="partycasino-choice" name="brand-list"
+                                value="partycasino" checked="">
+                            <label for="partycasino-choice"
+                                style="background: no-repeat url('logo/partycasino.jpg')"></label>
+                        </li>
+                        <li>
+                            <input type="radio" class="brand-radio-btn" id="partypoker-choice" name="brand-list"
+                                value="partypoker" checked="">
+                            <label for="partypoker-choice"
+                                style="background: no-repeat url('logo/partypoker.png')"></label>
+                        </li>
+                        <li>
+                            <input type="radio" class="brand-radio-btn" id="wof-choice" name="brand-list" value="wof"
+                                checked="">
+                            <label for="wof-choice"
+                                style="background: no-repeat url('logo/wheeloffortune.png')"></label>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SELECT PROMOTION TYPE -->
+        <div class="section">
+            <div class="section-header">
+                <span class="header-number">3</span>
+                <span class="header-title">What is the Promotion Type of your Task?</span>
+            </div>
+            <!-- PROMO TYPE - RADIO BUTTONS -->
+            <div class="section-content">
+                <div class="list-wrapper">
+                    <ul class="round-icon-list">
+                        <li>
+                            <input type="radio" class="promo-type-radio-btn" id="bet-and-get" name="promo-type-list"
+                                value="bet-and-get" checked="">
+                            <label for="bet-and-get"><i class="fa-solid fa-gamepad"></i></label>
+                            <span>Bet and Get</span>
+                        </li>
+                        <li>
+                            <input type="radio" class="promo-type-radio-btn" id="sweepstakes" name="promo-type-list"
+                                value="sweepstakes" checked="">
+                            <label for="sweepstakes"> <i class="fa-solid fa-ticket"></i></label>
+                            <span>Sweepstakes</span>
+                        </li>
+                        <li>
+                            <input type="radio" class="promo-type-radio-btn" id="leaderboard" name="promo-type-list"
+                                value="leaderboard" checked="">
+                            <label for="leaderboard"><i class="fa-solid fa-ranking-star"></i></label>
+                            <span>Leaderboard</span>
+                        </li>
+
+
+                        <li>
+                            <input type="radio" class="promo-type-radio-btn" id="engagement" name="promo-type-list"
+                                value="engagement" checked="">
+                            <label for="engagement"><i class="fa-solid fa-trophy"></i></label>
+                            <span>Engagement</span>
+                        </li>
+
+
+                        </li>
+                        <li>
+                            <input type="radio" class="promo-type-radio-btn" id="bonus-drop" name="promo-type-list"
+                                value="bonus-drop" checked="">
+                            <label for="bonus-drop"><i class="fa-solid fa-sack-dollar"></i></label>
+                            <span>Bonus Drop</span>
+                        </li>
+                        <li>
+                            <input type="radio" class="promo-type-radio-btn" id="deposit-match" name="promo-type-list"
+                                value="deposit-match" checked="">
+                            <label for="deposit-match"><i class="fa-solid fa-money-bill-transfer"></i></label>
+                            <span>Deposit Match</span>
+
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- EXTRA OPTIONS - PILLS LIST -->
+            <div class="section-content">
+                <div class="section-header">
+                    <span class="header-title subheader">Engagement Type</span>
+                </div>
+                <div class="list-wrapper-pill">
+                    <ul class="pill-list-type">
+                        <li>
+                            <span>Spin The Wheel</span>
+                        </li>
+                        <li>
+                            <span>Pick-A-Box</span>
+                        </li>
+                        <li>
+                            <span>Coin Flip</span>
+                        </li>
+                        <li>
+                            <span>Click Card</span>
+                        </li>
+                        <li>
+                            <span>Claw Machine</span>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- EXTRA OPTIONS - TRUE OR FALSE -->
+            <div class="section-content">
+                <div class="section-header">
+                    <span class="header-title subheader">MPP Included?</span>
+                </div>
+                <div class="include-mpp-wrapper">
+                    <div>
+                        <input type="radio" id="mpp-yes" name="mpp-selection" value="mpp-yes">
+                        <label class="choice-yes choose-mpp-btn" for="mpp-yes">Yes</label>
+                        <input type="radio" id="mpp-no" name="mpp-selection" value="mpp-no">
+                        <label class="choice-no choose-mpp-btn" for="mpp-no">No</label>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- RESULTS PREVIEW -->
+        <div class="section">
+            <div class="section-header">
+                <span class="header-number">4</span>
+                <span class="header-title">Click to Copy the Code:</span>
+            </div>
+            <div class="section-content">
+                <div class="section-col-2-layout">
+                    <div class="col-2-1">
+                        <div class="preview-wrapper">
+                            <div class="image-preview-box">
+                                <div class="preview-box-container">
+                                    <h6>Promohub Tiles-800x360</h6>
+                                    <div class="promohub-card">
+                                        <div class="ph-tile-container">
+                                            <img src="./placeholder imgs/ph reward.jpg" class="ph-tile-img">
+                                        </div>
+                                        <div class="ph-content-container">
+                                            <div class="ph-header">
+                                                <p>Claim your free #BONUS_VALUE# #CURRENCY# #PRODUCT# bonus!</p>
+                                            </div>
+                                            <div class="ph-content">
+                                                <p>
+                                                    No deposit required. Bonus requirement: Wager #REST_ACTIVITY_VALUE#
+                                                    #CURRENCY# within #BONUS_RESTRICTION_FULLFILLDAYS# days. Applicable
+                                                    channel:
+                                                    <strong>#BONUS_APPLICABLE_CHANNEL#</strong>. Bonus code:
+                                                    <strong>#BONUS_CODE#</strong>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-2-2">
+                        <div class="col-1-1-v">
+                            <div class="preview-wrapper">
+                                <div class="cta-preview-box">
+                                    <div class="preview-box-container">
+                                        <h6>MPP CTA</h6>
+                                        <div class="cta-group-box">
+                                            <button class="brand-btn brand-betmgm-casino-cta">Opt In</button>
+                                            <button class="brand-btn brand-betmgm-casino-cta">See My Progress</button>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-1-2-v">
+                            <div class="preview-wrapper">
+                                <div class="cta-preview-box">
+                                    <div class="preview-box-container">
+                                        <h6>Rest ID CTA</h6>
+                                        <button class="brand-btn brand-betmgm-casino-cta">Learn More</button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/122baaec84.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
